@@ -1,0 +1,34 @@
+{
+  "name": "talleresangelluishumanes",
+  "version": "1.0.0",
+  "description": "Página de talleres Ángel Luis Humanes",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "iotacss-settings-core": "^1.0.2",
+    "iotacss-tools-core": "^1.0.9",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch-sass": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniHumanes/talleresangelluishumanes.git"
+  },
+  "author": "Antonio Humanes Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniHumanes/talleresangelluishumanes/issues"
+  },
+  "homepage": "https://github.com/ToniHumanes/talleresangelluishumanes#readme"
+}
