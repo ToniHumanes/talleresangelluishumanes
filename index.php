@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="src/dist/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <?php include "./head.php" ?>
+    <title>Taller mecánico en Aranjuez</title>
+    <meta name="description" content="Taller mecánico en Aranjuez. Todo tipo de servicios de mecánica, chapa y pintura, montaje de lunas, limpieza. Trabajamos con todas las compañías de seguros">
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Taller mecánico en Aranjuez. Talleres Ángel Luis Humanes",
+    "image": "https://talleresangelluishumanes.com/src/imagenes/header/logo.svg",
+    "@id": "",
+    "url": "https://talleresangelluishumanes.com/",
+    "telephone": "918923969",
+    "priceRange": "0",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle de las Moreras,",
+        "addressLocality": "Aranjuez",
+        "postalCode": ", 28300",
+        "addressCountry": "ES"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.034789,
+        "longitude": -3.5868212
+    } ,
+    "sameAs": "https://es-es.facebook.com/talleresangelluishumanes/"
+    }
+</script>
 </head>
 
 <body>
@@ -15,13 +37,12 @@
     <?php include "./header.php" ?>
 
     <main class="main">
-        <section class="hero" style="background-image: url(src/imagenes/imagen-hero-home.jpg);">
+        <section class="hero hero__page-home">
             
             <div class="o-container u-p-none">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <p class="hero__title">Servicios</p>
-                        <p class="hero__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sunt iusto nesciunt assumenda veniam excepturi similique dolorum eos! Libero numquam omnis, suscipit dicta velit fugiat ullam provident tenetur veniam sint.</p>
+                        <h1 class="hero__title">Taller mecánico en Aranjuez</h1>
                     </div>
                 </div>
             </div>
@@ -29,118 +50,126 @@
 
 
         <section class="patnerts o-container">
-            <p class="patnerts__title u-text-center">Trabajamos con las mejores marcas y dando los mejores servicios.</p>
+            <p class="patnerts__title u-text-center">En nuestro taller mecánico en Aranjuez, trabajamos con las mejores marcas y dando los mejores servicios.</p>
             <div class="patnerts__contain">
                 <p class="paragraph u-text-center u-text-right@md">Colaboramos con grandes compañías de seguros, <span class="u-weight-bold">siendo taller Distinguido Mapfre, de confianza Soliss y concertado con Mutua Madrileña.</span></p>
-                <img src="src/imagenes/logo-mapfre.png" alt="" class="patnerts__image">
-                <img src="src/imagenes/logo-soliss.png" alt="" class="patnerts__image">
-                <img src="src/imagenes/logo-mutua-madrilena-height.png" alt="" class="patnerts__image">
+                <img src="src/imagenes/servicios/logo-mapfre.png" alt="Logo Mapfre" class="patnerts__image">
+                <img src="src/imagenes/servicios/logo-soliss.png" alt="Logo Soliss" class="patnerts__image">
+                <img src="src/imagenes/servicios/logo-mutua-madrilena-height.png" alt="Logo Mutua Madrileña" class="patnerts__image">
             </div>
         </section>
 
         <section class="assurance o-container">
-            <p class="title title--blue u-text-center">Trabajamos con todas las compañías de seguros.</p>
+            <h2 class="title title--light title--blue u-mb-large u-text-center">Trabajamos con todas las compañías de seguros.</h2>
             <div class="assurance__content">
-                <img src="src/imagenes/imagen-profesional.png" alt="" class="assurance__bg">
+                <img src="src/imagenes/servicios/imagen-profesional.png" alt="Taller mecánico en Aranjuez" class="assurance__bg">
                 <div class="assurance__logos">
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-mutua-madrilena.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-mutua-madrilena.png" alt="Logo Mutua Madrileña" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-allianz.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-allianz.png" alt="Logo Allianz" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-axa.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-axa.png" alt="Logo Axa" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-zurich.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-zurich.png" alt="Logo Zurich" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-racc.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-racc.png" alt="Logo Racc" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-fenix-directo.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-fenix-directo.png" alt="Logo Fenix Directo" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-grupo-amic.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-grupo-amic.png" alt="Logo Grupo Amic" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-direct.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-direct.png" alt="Logo Direct Seguros" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-generali.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-generali.png" alt="Logo Generali" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-genesis.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-genesis.png" alt="Logo Génesis" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-pelayo.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-pelayo.png" alt="Logo Pelayo" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-mmt.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-mmt.png" alt="Logo MMT" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-qualitas.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-qualitas.png" alt="Logo Qualitas Auto" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-reale.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-reale.png" alt="Logo Reale" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-catalana-occidente.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-catalana-occidente.png" alt="Logo Catalana Occidente" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-verti.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-verti.png" alt="Logo Vertis" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-linea-directa.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-linea-directa.png" alt="Logo Linea Directa" class="assurance__logos-image">
                     </div>
                     <div class="assurance__logos-image-contain">
-                        <img src="src/imagenes/logo-liberty-seguros.png" alt="" class="assurance__logos-image">
+                        <img src="src/imagenes/servicios/logo-liberty-seguros.png" alt="Logo Liberty" class="assurance__logos-image">
                     </div>
                 </div>
-                <p class="paragraph u-text-center">Además todos nuestros profesionales están certificados y actualizados en las últimas novedades del sector.</p>
+                <p class="paragraph u-text-center">Además, todos nuestros profesionales están certificados y actualizados en las últimas novedades del sector.</p>
             </div>
         </section>
 
         <section class="painting-services o-container">
             <div class="painting-services__content">
-                <p class="title title--blue u-text-uppercase">Pintura</p>
+                <h2 class="title title--blue u-text-uppercase">Pintura</h2>
                 <p class="paragraph">Contamos con las <span class="u-weight-bold">mejores marcas de pinturas para vehículos</span> del sector, trabajamos con primeras marcas en pintura del automóvil.</p>
             </div>
             <div class="painting-services__img-contain">
-                <img src="src/imagenes/logo-ppg.png" alt="" class="painting-services__img">
-                <img src="src/imagenes/imagen-pistola-pintura-desktop.png" alt="pistola pintura" class="painting-services__img painting-services__img--desktop">
-                <img src="src/imagenes/logo-max-meyer.png" alt="" class="painting-services__img">
+                <picture class="painting-services__img">
+                    <source srcset="src/imagenes/servicios/logo-ppg-desktop.png" media="(min-width: 425px)">
+                    <img src="src/imagenes/servicios/logo-ppg.png" alt="Logo Ppg Paints">
+                </picture>
+    
+                <img src="src/imagenes/servicios/imagen-pistola-pintura-desktop.png" alt="Pistola de Pintura taller mecánico Aranjuez" class="painting-services__img painting-services__img--desktop">
+
+                <picture class="painting-services__img">
+                    <source srcset="src/imagenes/servicios/logo-max-meyer-desktop.png" media="(min-width: 425px)">
+                    <img src="src/imagenes/servicios/logo-max-meyer.png" alt="Logo Max Meyer">
+                </picture>
             </div>
         </section>
 
 
         <section class="mecanic-services">
             <div class="o-container">
-                <p class="title title--white u-text-center u-text-uppercase">Mecánica</p>
+                <h2 class="title title--white u-text-center u-text-uppercase">Mecánica</h2>
                 <div class="mecanic-services__contain">
                     <div class="mecanic-services__item">
-                        <img src="src/imagenes/icon-paralelo.png" alt="" class="mecanic-services__image">
+                        <img src="src/imagenes/servicios/icon-paralelo.svg" alt="" class="mecanic-services__image">
                         <p class="mecanic-services__title">Montaje</p>
                         <p class="mecanic-services__paragraph">de neumáticos, equilibrado y paralelo</p>
                     </div>
                     <div class="mecanic-services__item">
-                        <img src="src/imagenes/icon-aceite.png" alt="" class="mecanic-services__image">
+                        <img src="src/imagenes/servicios/icon-aceite.svg" alt="" class="mecanic-services__image">
                         <p class="mecanic-services__title">Cambios</p>
                         <p class="mecanic-services__paragraph">de aceite y filtros.</p>
                     </div>
                     <div class="mecanic-services__item">
-                        <img src="src/imagenes/icon-ruedas.png" alt="" class="mecanic-services__image">
+                        <img src="src/imagenes/servicios/icon-ruedas.svg" alt="" class="mecanic-services__image">
                         <p class="mecanic-services__title">Discos</p>
                         <p class="mecanic-services__paragraph">de Frenos y Pastillas.</p>
                     </div>
                     <div class="mecanic-services__item">
-                        <img src="src/imagenes/icon-correas.png" alt="" class="mecanic-services__image">
+                        <img src="src/imagenes/servicios/icon-correas.svg" alt="" class="mecanic-services__image">
                         <p class="mecanic-services__title">Revisiones </p>
                         <p class="mecanic-services__paragraph">de neumáticos, equilibrado y paralelo</p>
                     </div>
                     <div class="mecanic-services__item">
-                        <img src="src/imagenes/icon-revisiones.png" alt="" class="mecanic-services__image">
+                        <img src="src/imagenes/servicios/icon-revisiones.svg" alt="" class="mecanic-services__image">
                         <p class="mecanic-services__title">Montaje</p>
                         <p class="mecanic-services__paragraph">Pre-ITV.</p>
                     </div>
@@ -166,34 +195,135 @@
                         <p class="title title--blue u-text-center u-text-uppercase u-text-left@md">Somos expertos y trabajamos</p>
                     </div>
                     <div class="o-container o-container--large brand-experts__image-contains">
-                        <img src="src/imagenes/suzuki.png" alt="" class="brand-experts__image">
+                        <img src="src/imagenes/servicios/suzuki.png" alt="Suzuki" class="brand-experts__image">
                     </div>
                     <div class="o-container brand-experts__subtitle">
-                        <p class="title-second u-text-center">con todas las marcas de coches.</p>
+                        <p class="title--light title-second u-text-center">con todas las marcas de coches.</p>
                     </div>
                 </div>
                 <div class="o-container">
                     <ul class="brand-experts__list">
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-bmw.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-mercedes.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-audi.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-tesla.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-volkswagen.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-honda.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-lexus.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-toyota.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-renault.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-citroen.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-peugeot.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-opel.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-volvo.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-seat.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-fiat.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-kia.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-hyundai.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-suzuki.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-skoda.png" alt="" class="brand-experts__list-image"></li>
-                        <li class="brand-experts__list-item"><img src="src/imagenes/logo-smart.png" alt="" class="brand-experts__list-image"></li>
+                        <li class="brand-experts__list-item">
+                            <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-bmw-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-bmw.png" alt="Logo Bmw">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                            <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-mercedes-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-mercedes.png" alt="Logo Mercedes">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                            <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-audi-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-audi.png" alt="Logo Audi">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-tesla-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-tesla.png" alt="Logo Tesla">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-vw-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-volkswagen.png" alt="Logo Volkswagen">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-honda-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-honda.png" alt="Logo Honda">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-lexus-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-lexus.png" alt="Logo Lexus">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-toyota-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-toyota.png" alt="Logo Toyota">
+                            </picture>
+    
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-renault-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-renault.png" alt="Logo Renault">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-citroen-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-citroen.png" alt="Logo Citroen">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-peugeot-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-peugeot.png" alt="Logo Peugeot">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-opel-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-opel.png" alt="Logo Opel">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-volvo-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-volvo.png" alt="Logo Volvo">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-seat-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-seat.png" alt="Logo Seat">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-fiat-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-fiat.png" alt="Logo Fiat">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-kia-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-kia.png" alt="Logo Kia">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-hyundai-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-hyundai.png" alt="Logo Hyundai">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-suzuki-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-suzuki.png" alt="Logo Suzuki">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-skoda-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-skoda.png" alt="Logo Skoda">
+                            </picture>
+                        </li>
+                        <li class="brand-experts__list-item">
+                        <picture class="brand-experts__list-image">
+                                <source srcset="src/imagenes/servicios/logo-smart-desktop.png" media="(min-width: 425px)">
+                                <img src="src/imagenes/servicios/logo-smart.png" alt="Logo Smart">
+                            </picture>
+                        </li>
                     </ul>
                 </div>
         </section>
@@ -203,13 +333,13 @@
                 <article class="other-services-item other-services-item--clean">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <img src="src/imagenes/vehiculo-servicio-limpieza.png" alt="" class="other-services-item__image other-services-item__image--clean">
-                            <p class="title title--blue u-text-uppercase u-mb-medium">Limpieza exterior e interior del vehículo</p>
+                            <img src="src/imagenes/servicios/vehiculo-servicio-limpieza.png" alt="Servicio de limpieza taller mecánico Aranjuez" class="other-services-item__image other-services-item__image--clean">
+                            <h2 class="title title--blue u-text-uppercase u-mb-medium"> <span class="other-services-title-big">Limpieza </span><span class="other-services-title-medium">exterior e interior </span> <span class="other-services-title-medium u-text-lowercase"> del vehículo</span></h2>
                             <p class="paragraph">Realizamos una limpieza integral de su vehículo al realizar grandes reparaciones, tanto en mecánica como en chapa y pintura.<p>
                             <p class="paragraph">También disponemos de un servicio de limpieza completo del vehículo sin necesidad de que lo hayamos estado reparando.</p>
                             <p class="paragraph">Si deseas más información sobre este tema no dudes en ponerte en contacto con nosotros, estaremos encantados de ayudarte.</p>
                             <div class="u-flex u-fd-col u-ai-center">
-                                <a href="" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
+                                <a href="contacto.php" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
                             </div>
                         </div>
                     </div>
@@ -218,14 +348,14 @@
                 <article class="other-services-item other-services-item--subtitution">
 
                     <div class="other-services-item__header">
-                        <img src="src/imagenes/imagen-coche-sustitucion.png" alt="" class="other-services-item__image">
-                        <p class="title title--blue u-text-uppercase u-mb-medium">Servicio de coche de sustitución:</p>
+                        <img src="src/imagenes/servicios/imagen-coche-sustitucion.png" alt="Coche sustituticón taller mecánico Aranjuez" class="other-services-item__image">
+                        <h2 class="title title--blue u-text-uppercase u-mb-medium"> <span class="u-weight-light">Servicio de</span> coche de sustitución:</h2>
                     </div>
 
                     <p class="paragraph">Sabemos lo fundamental que es un coche para el día a día, por eso ofrecemos servicio de coche de sustitución, para que los días que tu coche este en nuestras instalaciones no tengas problemas en este sentido.</p>
                     <p class="paragraph">Disponemos de 6 vehículos de sustitución.</p>
                     <div class="u-flex u-fd-col u-ai-center">
-                        <a href="#" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
+                        <a href="contacto.php" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
                     </div>
                 </article>
     
@@ -233,34 +363,34 @@
                 <article class="other-services-item other-services-item--pickup">
 
                     <div class="other-services-item__header">
-                        <img src="src/imagenes/imagen-servicio-a-domicilio.png" alt="" class="other-services-item__image">
-                        <p class="title title--blue u-text-uppercase u-mb-medium">Servicio de recogida a domicilio:</p>
+                        <img src="src/imagenes/servicios/imagen-servicio-a-domicilio.png" alt="Servicio a domicilio" class="other-services-item__image">
+                        <h2 class="title title--blue u-text-uppercase u-mb-medium"><span class="u-weight-light">Servicio de</span> recogida a domicilio:</h2>
                     </div>
 
                     <p class="paragraph">Recogemos tu coche a domicilio, para tu mayor comodidad.  Todo esto para que tú no te tengas que preocupar de nada.</p>
                     <p class="paragraph">Para más información sobre este servicio contacta con nosotros. </p>
                     <div class="u-flex u-fd-col u-ai-center">
-                        <a href="#" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
+                        <a href="contacto.php" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
                     </div>
                 </article>
 
                 <article class="other-services-item other-services-item--mounting">
 
-                    <div class="other-services-item__header u-flex u-mb-medium u-relative">
-                        <img src="src/imagenes/imagen-montaje-lunas.png" alt="" class="other-services-item__image--absolute">
-                        <div>
-                            <p class="title title--blue u-text-uppercase u-text-right u-text-left@md">Montaje <span class="u-block u-inline@md">de lunas</span></p>
+                    <div class="other-services-item__header u-mb-medium u-relative">
+                        <img src="src/imagenes/servicios/imagen-montaje-lunas.png" alt="Montaje de lunes taller mecánico Aranjuez" class="other-services-item__image--absolute">
+                        <div class="other-services-item--mounting__title">
+                            <h2 class="title title--blue u-text-uppercase u-text-right u-text-left@md">Montaje <span class=" u-inline@md">de lunas</span></h2>
                             <p class="title--light title--blue u-text-right u-text-left@md">Rapidez y flexibilidad:</p>
                         </div>
                     </div>
-                    <p class="paragraph u-text-center@md">Todas las reparaciones son realizadas con la máxima rapidez sin dejar a un lado 
+                    <p class="paragraph u-text-center@md">En nuestro taller mecánico en Aranjuez, todas las reparaciones son realizadas con la máxima rapidez sin dejar a un lado 
                         la calidad, gracias nuestra metodología de trabajo.</p>
                     <div class="u-flex u-fd-col u-ai-center">
-                        <a href="#" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
+                        <a href="contacto.php" class="button button--icon-left u-text-uppercase u-weight-bold">Contáctanos</a>
                     </div>
                 </article>    
             </section>
-            <img src="src/imagenes/imagen-lunas.png" alt="" class="other-services-item__image--background">
+            <img src="src/imagenes/servicios/imagen-lunas.png" alt="Montaje de lunes taller mecánico Aranjuez" class="other-services-item__image--background">
         </div>
 
 
@@ -269,13 +399,13 @@
             <div class="o-container">
                 <div class="u-mb-medium">
                     <p class="title--light title--blue u-text-center">Procesos que llevamos a cabo en nuestra sección de </p>
-                    <p class="title title--blue u-text-uppercase u-text-center">chapa y pintura.</p>
+                    <h2 class="title title--blue u-text-uppercase u-text-center">chapa y pintura.</h2>
                 </div>
                 <div class="process-painting__grid-image">
-                    <img src="src/imagenes/imagen-cabina1.png" class="process-painting__grid-image-item" alt="">
-                    <img src="src/imagenes/imagen-pintura-cabina.jpg" class="process-painting__grid-image-item" alt="">
-                    <img src="src/imagenes/imagen-cabina2.jpg" class="process-painting__grid-image-item" alt="">
-                    <img src="src/imagenes/imagen-cabina3.jpg" class="process-painting__grid-image-item" alt="">
+                    <img src="src/imagenes/servicios/imagen-cabina1.png" class="process-painting__grid-image-item" alt="Servicio de pintura taller mecánico Aranjuez">
+                    <img src="src/imagenes/servicios/imagen-pintura-cabina.jpg" class="process-painting__grid-image-item" alt="Servicio Pintura taller mecánico Aranjuez">
+                    <img src="src/imagenes/servicios/imagen-cabina2.jpg" class="process-painting__grid-image-item" alt="Taller mecánico en Aranjuez">
+                    <img src="src/imagenes/servicios/imagen-cabina3.jpg" class="process-painting__grid-image-item" alt="Servicio de pintura taller mecánico Aranjuez">
                 </div>
                 <div class="process-painting__cards">
                     <article class="process-painting__card process-painting__card--border-right">
@@ -318,7 +448,7 @@
                         <p class="title--small title--blue u-weight-bold u-mb-small">Entrega del vehículo:</p>
                         <p class="paragraph">Te llamamos para entregarte tu vehículo, así de sencillo.</p>
                     </article>
-                    <img src="src/imagenes/imagen-satisfaccion-cliente.png" alt="" class="process-painting__card--imagen process-painting__card--border-left">
+                    <img src="src/imagenes/servicios/imagen-satisfaccion-cliente.png" alt="Satisfaccion de nuestros clientes" class="process-painting__card--imagen process-painting__card--border-left">
                 </div>
             </div>
         </section>
@@ -326,6 +456,6 @@
         <?php include "./footer.php" ?>
 
     </main>
+    <script src="src/dist/main.js"></script>
 </body>
-<script src="src/dist/main.js"></script>
 </html>
