@@ -10,7 +10,7 @@
     "gulp-uglify": "^3.0.2",
     "iotacss-settings-core": "^1.0.2",
     "iotacss-tools-core": "^1.0.9",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
